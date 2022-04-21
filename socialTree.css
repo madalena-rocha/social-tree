@@ -47,15 +47,11 @@
 .links .link {
     /* Rectangles */
     
-    position: absolute;
     width: 326px;
     height: 49px;
-    left: 556px;
 
     border: 2px solid #BB99DD;
     border-radius: 4px;
-    
-    justify-content: center;
     
     /* Links */
 
@@ -65,60 +61,7 @@
     font-size: 16px;
     line-height: 24px;
     
-    display: flex;
-    align-items: center;
-    text-align: center;
     text-transform: uppercase;
 
     color: #BB99DD;
-}
-
-.links .link:nth-child(1) {
-    /* linkedin */
-    top: 498px;
-}
-
-.links .link:nth-child(2) {
-    /* github */
-    top: 563px;
-}
-
-.links .link:nth-child(3) {
-    /* rocketseat */
-    top: 628px;
-}
-
-.links .link:nth-child(4) {
-    /*  */
-    top: 693px;
-}
-
-.icons .icon{
-    position: absolute;
-    top: 798px;
-}
-
-.icons .icon:nth-child(1) {
-    /* twitter */
-    left: 601px;
-}
-
-.icons .icon:nth-child(2) {
-    /* twitch */
-    left: 654px;
-}
-
-.icons .icon:nth-child(3) {
-    /* instagram */
-    left: 707px;
-}
-
-.icons .icon:nth-child(4) {
-    /* linkedin */
-    left: 760px;
-}
-
-.icons .icon:nth-child(5) {
-    /* github */
-    left: 813px;
 }
