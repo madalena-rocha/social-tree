@@ -11,55 +11,68 @@
     box-sizing: border-box;
 }
 
-.container {
-    /* Desktop */
-    
-    width: 100%;
-    height: 100%;
-    
-    background: #FAF7FD;
-
+.container, .profile, .link {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
-.profile img {
-    /* Profile image */
+.container {
+    width: 100vw;
+    height: 100vh;
+    
+    background: #FAF7FD;
+}
+
+.profile {
+    width: 213px;
+    height: 213px;
+
+    border: 2px solid #BB99DD;
+    border-radius: 50%;
+}
+
+.profile img { 
+    width: 200px;
+    height: 200px;
 
     border-radius: 50%;
-    border: 2px solid #BB99DD;
+}
+
+.username, .link {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #BB99DD;
 }
 
 .username {
-    /* @instagram */
-
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
 
-    color: #BB99DD;
+    margin-top: 15px;
+    margin-bottom: 33px;
 }
 
-.links .link {
-    /* Rectangles */
+.link {
+    width: 326px;
+    height: 49px;
 
     border: 2px solid #BB99DD;
     border-radius: 4px;
-    
-    /* Links */
 
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    
+
     text-transform: uppercase;
 
-    color: #BB99DD;
+    margin-bottom: 16px;
+}
+
+.icons{
+    display: flex;
+    gap: 29px;
+
+    margin-top: 52px;
 }
