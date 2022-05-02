@@ -1,14 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300;600&family=Roboto+Serif:wght@100&display=swap');
-
 :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
+
+    font-size: 62.5%; /* 1rem = 10px */
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1.6rem; /* 16px */
+    
 }
 
 .container, .profile, .link {
@@ -22,56 +29,52 @@
     width: 100vw;
     height: 100vh;
     
-    background: #FAF7FD;
+    background: var(--body-bg-color);
 }
 
 .profile {
-    width: 213px;
-    height: 213px;
+    width: 21.3rem;
+    height: 21.3rem;
 
-    border: 2px solid #BB99DD;
+    border: 2px solid var(--purple);
     border-radius: 50%;
 }
 
 .profile img { 
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
 
     border-radius: 50%;
 }
 
 .username, .link {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: #BB99DD;
+    color: var(--purple);
+    line-height: 2.4rem;
 }
 
 .username {
     font-weight: 300;
 
-    margin-top: 15px;
-    margin-bottom: 33px;
+    margin-top: 1.5rem;
+    margin-bottom: 3.3rem;
 }
 
 .link {
-    width: 326px;
-    height: 49px;
+    width: 32.6rem;
+    height: 4.9rem;
 
-    border: 2px solid #BB99DD;
-    border-radius: 4px;
+    border: 0.2rem solid var(--purple);
+    border-radius: 0.4rem;
 
     font-weight: 600;
     text-transform: uppercase;
 
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .icons{
     display: flex;
-    gap: 29px;
+    gap: 2.9rem;
 
-    margin-top: 52px;
+    margin-top: 5.2rem;
 }
